@@ -3,7 +3,7 @@ const app = express()
 const db = require('cyclic-dynamodb')
 
 app.use(express.json())
-app.use(require("cors")())
+// app.use(require("cors")())
 app.use(express.urlencoded({ extended: true }))
 
 // #############################################################################
